@@ -1,0 +1,12 @@
+表
+用户表		id|用户名		|密码			|用户组id		|权限菜单	|性别		|电话		|邮箱		|地址		
+s_member	id|username	|password	|group_id	|menus	|sex	|tel	|email	|address
+
+用户组表		id|用户组名	|权限菜单		
+s_group		id|title	|menus
+
+菜单表		id|父id		|级别			|上级标题		|标题		|路径
+s_menu		id|pid		|level		|ptitle		|title	|url
+
+设置表		id|标题		|键		|值
+s_set		id|title	|key	|value

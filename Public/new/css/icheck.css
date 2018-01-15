@@ -1,0 +1,13 @@
+ul.domtree, ul.domtree ul {  
+    margin: 0;  
+    padding: 1em 0 1em 3em; 
+}  
+
+li.checkbox_li{
+	float:left;
+	padding:0.5em;
+	width:155px;
+}
+
+
+
